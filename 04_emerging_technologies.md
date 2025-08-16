@@ -1,7 +1,7 @@
 # Cloud Computing
 
 ## Purpose 
-Cloud Computing is a revolutionary technology that allows businesses and individuals to store and access their files and various applications over the Internet, rather than storing them on local servers or personal computers. Increased efficiency, flexibility, and collaboration are just a few of the advantages cloud technology can offer to its users.
+**Cloud Computing** is a revolutionary technology that allows businesses and individuals to store and access their files and various applications over the Internet, rather than storing them on local servers or personal computers. Increased efficiency, flexibility, and collaboration are just a few of the advantages cloud technology can offer to its users.
 
 Nowadays, it has played a pivotal role in our everyday lives, since almost everyone around the globe is able to access cloud applications such as Google Gmail, Netflix, and the like. Cloud Computing lets you offload some or even all of the expense in terms of purchasing, installing, configuring, and managing mainframe computers, and such. Moreover, it increases speed and agility within companies and organizations. It also provides elasticity and self-service provisioning, which allows its users to scale capacity in response to spikes and dips in traffic. Lastly, it enables organizations to use various technologies and applications to gain a competitive edge among the industry they belong.
 
