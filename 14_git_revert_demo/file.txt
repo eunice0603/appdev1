@@ -1,3 +1,6 @@
 Line 1
 Line 2
-Line 3
+
+Realization:
+I noticed that after I used the git revert command in this file,
+my latest commit with the text "Line 3" was gone.
