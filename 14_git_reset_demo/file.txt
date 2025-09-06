@@ -1,3 +1,10 @@
 Line 1
 Line 2
 Line 3
+
+Realization:
+I have noticed that using reset --hard, I am able to go back to my previous commits.
+For example, I used the git reset --hard command with the commit-id of the "Add Line 2", the head will go back
+to that commit and inside the file, the Line 3 disappeared.
+Such a thing will happen also when I use the commit-id of the "Add Line 1", and both Line 2 & 3 will disappear
+from the file.
