@@ -1,0 +1,5 @@
+Realization:
+Even though the macro commit gives a one-line commit history, I think micro commit
+is more efficient because if you make a mistake in one file, you do not have to worry
+about the commits of the other files. You can just make a commit to that specific file.
+Now I realized that micro commit is much cleaner and easy to perceive than macro.
