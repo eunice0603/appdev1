@@ -1,0 +1,6 @@
+Realization:
+
+Before, in rebase, when I check the commit histories, the feature and main
+branches show different commits and files. But with merge, I am able to merge
+or combine both branches and now, when I look at the commit history, I see
+the commits I have done in both branches.
