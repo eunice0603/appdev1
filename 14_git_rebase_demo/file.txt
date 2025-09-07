@@ -1,0 +1,6 @@
+Realization:
+
+I checked the commit history in the main and feature branch, and
+it only shows specific files done in those respective branches.
+But with rebase, it integrated the changes in every branch, so I
+saw all the files I made even in different branches.
