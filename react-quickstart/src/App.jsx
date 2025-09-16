@@ -1,46 +1,60 @@
 import './App.css'
 
-// const user = { 
-//   name: 'Eunice', 
-//   imageUrl: 'https://i.pinimg.com/736x/c2/ba/55/c2ba553cdec2bdeed28ffa2223e93d4c.jpg',
-// };
+// If...else Syntax
 
-// function AboutPage() {  
-//   return (
-//     <>
-//       <h1>
-//         {user.name}
-//       </h1>
-
-//       <img
-//         className="avatar"
-//         src={user.imageUrl}
-//       />
-//     </>
-//   );
-// }
-
-// export default AboutPage
-
-const user = {
-  name: 'Eunice',
-  imageUrl: 'https://i.pinimg.com/736x/c2/ba/55/c2ba553cdec2bdeed28ffa2223e93d4c.jpg',
-  imageSize: 90,
-};
-
-export default function Profile() {
+function AdminPanel() {
   return (
-    <>
-      <h1>{user.name}</h1>
-      <img
-        className="avatar"
-        src={user.imageUrl}
-        alt={'Photo of ' + user.name}
-        style={{
-          width: user.imageSize,
-          height: user.imageSize
-        }}
-      />
-    </>
+    <h1>Admin Panel</h1>
+  );
+}
+
+function LoginForm() {
+  return <h1>Login Form</h1>;
+}
+
+export default function AboutPage() {  
+  const isLoggedIn = true;
+
+  let content;
+  if (isLoggedIn) {
+    content = <AdminPanel />;
+  } else {
+    content = <LoginForm />;
+  }
+
+  return (
+    <div>
+      {content}
+    </div>
+  );
+}
+
+// Conditional ? Operator
+
+export default function AboutPage() {
+
+  const isLoggedIn = false;
+
+  return (
+    <div>
+      {isLoggedIn ? (
+        <AdminPanel />
+      ) : (
+        <LoginForm />
+      )}
+    </div>
+  );
+}
+
+// Logical && Syntax
+
+export default function AboutPage() {
+
+  const isLoggedIn = true;
+
+  return (
+    <div>
+      {isLoggedIn && <AdminPanel />}
+    </div>
   );
 }
