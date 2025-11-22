@@ -1,28 +1,14 @@
-import './App.css';
+const today = new Date();
 
-// Passing string with quotes
-
-export default function Avatar() {
-  return (
-    <img
-      className="avatar"
-      src="https://i.imgur.com/7vQD0fPs.jpg"
-      alt="Gregorio Y. Zara"
-      borderRadius="50%"
-    />
-  );
+function formatDate(date) {
+  return new Intl.DateTimeFormat(
+    'en-US',
+    { weekday: 'long' }
+  ).format(date);
 }
 
-// Dynamically specify the src or alt text
-
-export default function Avatar() {
-  const avatar = 'https://i.imgur.com/7vQD0fPs.jpg';
-  const description = 'Gregorio Y. Zara';
+export default function TodoList() {
   return (
-    <img
-      className="avatar"
-      src={avatar}
-      alt={description}
-    />
+    <h1>To Do List for {formatDate(today)}</h1>
   );
 }
